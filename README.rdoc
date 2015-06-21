@@ -1,5 +1,5 @@
 # Pinteresting - One Month
 
-This is the pinteresting sample application for [*One Month Rails*] (http://onemonthrails.com)
+This is the pinteresting example application for [*One Month Rails*] (http://onemonthrails.com)
 
 by John Clune (http://animealert.com)
