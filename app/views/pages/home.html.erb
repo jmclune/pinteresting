@@ -1,4 +1,11 @@
 <div class="jumbotron center">
 <h1>HOME PAGE</h1>
-<p>Click here to <%= link_to "Log In", "#", class: "btn btn-default btn-md"%><%= link_to "Sign Up", "#", class: "btn btn-primary btn-md"%></p>
+	<% if user_signed_in? %>
+	# do something
+	<% else %>
+	<p>Click here to 
+	<%= link_to "Log In", new_user_session_path, class: "btn btn-default btn-md"%>
+	<%= link_to "Sign Up", new_user_registration_path, class: "btn btn-primary btn-md"%>
+	</p>
+	<% end %>
 </div>
