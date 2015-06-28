@@ -9,13 +9,11 @@
 .box {
 	margin: 5px;
 	width: 214px;
+  word-wrap:break-word;
 }
 
 .box img {
 	width: 100%;
-}
-.box > p {
-  font-size: 100%;
 }
 
 .panel > .panel-heading img {
