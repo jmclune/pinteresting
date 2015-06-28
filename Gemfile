@@ -48,6 +48,8 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin]
 
 gem 'bootstrap-sass'
 
+gem 'font-awesome-sass'
+
 group :development, :test do
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
